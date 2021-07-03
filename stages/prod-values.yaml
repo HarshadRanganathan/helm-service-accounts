@@ -1,0 +1,5 @@
+serviceAccounts:
+  - name: "aws-load-balancer-controller"
+    namespace: "platform"
+    annotations: 
+      "eks.amazonaws.com/role-arn": "arn:aws:iam::<AWS_ACCOUNT_ID>:role/aws-load-balancer-controller-rol"
