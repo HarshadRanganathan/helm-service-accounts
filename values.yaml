@@ -1,0 +1,13 @@
+# Provide the list of service accounts to be created.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+# serviceAccounts:
+#   -
+#     # The name of the service account to use.
+#     name: ""
+#     # The namespace in which the service account is to be created.
+#     # If not set then the service account will be created in the default namespace
+#     namespace: "default"
+#     # Annotations to add to the service account
+#     annotations: {}
