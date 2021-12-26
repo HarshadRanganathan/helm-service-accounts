@@ -60,8 +60,3 @@ Create the name of the service account to use
 {{- default "default" .Values.serviceAccount.name }}
 {{- end }}
 {{- end }}
-
-
-{{- define "service-accounts.sparkRole" -}}
-{{- default false .Values.sparkRole }}
-{{- end }}
